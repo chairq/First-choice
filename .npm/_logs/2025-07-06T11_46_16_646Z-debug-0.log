@@ -1,0 +1,1236 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.3.0
+2 info using node@v24.2.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install railway
+7 verbose argv "install" "--global" "railway"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-07-06T11_46_16_646Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-07-06T11_46_16_646Z-debug-0.log
+10 silly packumentCache heap:1089470464 maxSize:272367616 maxEntrySize:136183808
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest railway@*
+14 silly packumentCache full:https://registry.npmjs.org/railway cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/railway 6419ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/railway set size:306389 disposed:false
+17 silly placeDep ROOT railway@2.0.17 OK for:  want: *
+18 silly fetch manifest @types/tar@^4.0.3
+19 silly packumentCache full:https://registry.npmjs.org/@types%2ftar cache-miss
+20 silly fetch manifest chalk@^4.1.0
+21 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+22 silly fetch manifest cli-spinners@^2.3.0
+23 silly packumentCache full:https://registry.npmjs.org/cli-spinners cache-miss
+24 silly fetch manifest get-port@^5.1.1
+25 silly packumentCache full:https://registry.npmjs.org/get-port cache-miss
+26 silly fetch manifest has-yarn@^2.1.0
+27 silly packumentCache full:https://registry.npmjs.org/has-yarn cache-miss
+28 silly fetch manifest ink@^3.0.0
+29 silly packumentCache full:https://registry.npmjs.org/ink cache-miss
+30 silly fetch manifest ink-link@^1.1.0
+31 silly packumentCache full:https://registry.npmjs.org/ink-link cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/cli-spinners 348ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/cli-spinners set size:61130 disposed:false
+34 silly fetch manifest ink-select-input@^4.0.0
+35 silly packumentCache full:https://registry.npmjs.org/ink-select-input cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/chalk 365ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/chalk set size:122561 disposed:false
+38 silly fetch manifest ink-text-input@^4.0.0
+39 silly packumentCache full:https://registry.npmjs.org/ink-text-input cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/has-yarn 511ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/has-yarn set size:10760 disposed:false
+42 silly fetch manifest meow@^7.0.1
+43 silly packumentCache full:https://registry.npmjs.org/meow cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/get-port 523ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/get-port set size:44855 disposed:false
+46 silly fetch manifest node-fetch@^2.6.0
+47 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/ink 547ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/ink set size:399623 disposed:false
+50 silly fetch manifest open@^7.0.4
+51 silly packumentCache full:https://registry.npmjs.org/open cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@types%2ftar 603ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/@types%2ftar set size:55563 disposed:false
+54 silly fetch manifest pg@^8.2.1
+55 silly packumentCache full:https://registry.npmjs.org/pg cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/ink-text-input 288ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/ink-text-input set size:82106 disposed:false
+58 silly fetch manifest react@^16.13.1
+59 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/ink-select-input 326ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/ink-select-input set size:58860 disposed:false
+62 silly fetch manifest tar@^6.0.2
+63 silly packumentCache full:https://registry.npmjs.org/tar cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/open 128ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmjs.org/open set size:131448 disposed:false
+66 silly fetch manifest tslib@^2.0.0
+67 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/node-fetch 202ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+70 silly fetch manifest update-check@^1.5.4
+71 silly packumentCache full:https://registry.npmjs.org/update-check cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/meow 309ms (cache revalidated)
+73 silly packumentCache full:https://registry.npmjs.org/meow set size:121720 disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/react 233ms (cache revalidated)
+75 silly packumentCache full:https://registry.npmjs.org/react set size:5829097 disposed:false
+76 http fetch GET 200 https://registry.npmjs.org/tar 482ms (cache revalidated)
+77 silly packumentCache full:https://registry.npmjs.org/tar set size:398957 disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/update-check 423ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/update-check set size:34153 disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/tslib 484ms (cache revalidated)
+81 silly packumentCache full:https://registry.npmjs.org/tslib set size:108820 disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/ink-link 1200ms (cache revalidated)
+83 silly packumentCache full:https://registry.npmjs.org/ink-link set size:25991 disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/pg 610ms (cache revalidated)
+85 silly packumentCache full:https://registry.npmjs.org/pg set size:461675 disposed:false
+86 silly fetch manifest @types/react@>=16.8.0
+87 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@types%2freact 172ms (cache revalidated)
+89 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2412792 disposed:false
+90 silly fetch manifest encoding@^0.1.0
+91 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/encoding 117ms (cache revalidated)
+93 silly packumentCache full:https://registry.npmjs.org/encoding set size:17833 disposed:false
+94 silly fetch manifest pg-native@>=3.0.1
+95 silly packumentCache full:https://registry.npmjs.org/pg-native cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/pg-native 323ms (cache revalidated)
+97 silly packumentCache full:https://registry.npmjs.org/pg-native set size:87130 disposed:false
+98 silly placeDep node_modules/railway @types/tar@4.0.5 OK for: railway@2.0.17 want: ^4.0.3
+99 silly placeDep node_modules/railway chalk@4.1.2 OK for: railway@2.0.17 want: ^4.1.0
+100 silly placeDep node_modules/railway cli-spinners@2.9.2 OK for: railway@2.0.17 want: ^2.3.0
+101 silly placeDep node_modules/railway get-port@5.1.1 OK for: railway@2.0.17 want: ^5.1.1
+102 silly placeDep node_modules/railway has-yarn@2.1.0 OK for: railway@2.0.17 want: ^2.1.0
+103 silly placeDep node_modules/railway ink@3.2.0 OK for: railway@2.0.17 want: ^3.0.0
+104 silly placeDep node_modules/railway react@16.14.0 OK for: ink@3.2.0 want: >=16.8.0
+105 silly placeDep node_modules/railway ink-link@1.1.0 OK for: railway@2.0.17 want: ^1.1.0
+106 silly placeDep node_modules/railway ink-select-input@4.2.2 OK for: railway@2.0.17 want: ^4.0.0
+107 silly placeDep node_modules/railway ink-text-input@4.0.3 OK for: railway@2.0.17 want: ^4.0.0
+108 silly placeDep node_modules/railway meow@7.1.1 OK for: railway@2.0.17 want: ^7.0.1
+109 silly placeDep node_modules/railway node-fetch@2.7.0 OK for: railway@2.0.17 want: ^2.6.0
+110 silly placeDep node_modules/railway open@7.4.2 OK for: railway@2.0.17 want: ^7.0.4
+111 silly placeDep node_modules/railway pg@8.16.3 OK for: railway@2.0.17 want: ^8.2.1
+112 silly placeDep node_modules/railway tar@6.2.1 OK for: railway@2.0.17 want: ^6.0.2
+113 silly placeDep node_modules/railway tslib@2.8.1 OK for: railway@2.0.17 want: ^2.0.0
+114 silly placeDep node_modules/railway update-check@1.5.4 OK for: railway@2.0.17 want: ^1.5.4
+115 silly fetch manifest @types/node@*
+116 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+117 silly fetch manifest @types/minipass@*
+118 silly packumentCache full:https://registry.npmjs.org/@types%2fminipass cache-miss
+119 silly fetch manifest ansi-styles@^4.1.0
+120 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+121 silly fetch manifest supports-color@^7.1.0
+122 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+123 silly fetch manifest ws@^7.5.5
+124 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+125 silly fetch manifest is-ci@^2.0.0
+126 silly packumentCache full:https://registry.npmjs.org/is-ci cache-miss
+127 silly fetch manifest lodash@^4.17.20
+128 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/supports-color 123ms (cache revalidated)
+130 silly packumentCache full:https://registry.npmjs.org/supports-color set size:115466 disposed:false
+131 silly fetch manifest auto-bind@4.0.0
+132 silly packumentCache full:https://registry.npmjs.org/auto-bind cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/lodash 132ms (cache revalidated)
+134 silly packumentCache full:https://registry.npmjs.org/lodash set size:242413 disposed:false
+135 silly fetch manifest cli-boxes@^2.2.0
+136 silly packumentCache full:https://registry.npmjs.org/cli-boxes cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/ansi-styles 171ms (cache revalidated)
+138 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+139 silly fetch manifest scheduler@^0.20.2
+140 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/ws 181ms (cache revalidated)
+142 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+143 silly fetch manifest type-fest@^0.12.0
+144 silly packumentCache full:https://registry.npmjs.org/type-fest cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 310ms (cache revalidated)
+146 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:10360744 disposed:false
+147 silly fetch manifest wrap-ansi@^6.2.0
+148 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/auto-bind 678ms (cache revalidated)
+150 silly packumentCache full:https://registry.npmjs.org/auto-bind set size:28953 disposed:false
+151 silly fetch manifest cli-cursor@^3.1.0
+152 silly packumentCache full:https://registry.npmjs.org/cli-cursor cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/@types%2fminipass 819ms (cache revalidated)
+154 silly packumentCache full:https://registry.npmjs.org/@types%2fminipass set size:13893 disposed:false
+155 silly fetch manifest slice-ansi@^3.0.0
+156 silly packumentCache full:https://registry.npmjs.org/slice-ansi cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/is-ci 821ms (cache revalidated)
+158 silly packumentCache full:https://registry.npmjs.org/is-ci set size:35380 disposed:false
+159 silly fetch manifest signal-exit@^3.0.2
+160 silly packumentCache full:https://registry.npmjs.org/signal-exit cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/cli-boxes 680ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/cli-boxes set size:19853 disposed:false
+163 silly fetch manifest stack-utils@^2.0.2
+164 silly packumentCache full:https://registry.npmjs.org/stack-utils cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/type-fest 757ms (cache revalidated)
+166 silly packumentCache full:https://registry.npmjs.org/type-fest set size:526878 disposed:false
+167 silly fetch manifest widest-line@^3.1.0
+168 silly packumentCache full:https://registry.npmjs.org/widest-line cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/scheduler 844ms (cache revalidated)
+170 silly packumentCache full:https://registry.npmjs.org/scheduler set size:4895031 disposed:false
+171 silly fetch manifest ansi-escapes@^4.2.1
+172 silly packumentCache full:https://registry.npmjs.org/ansi-escapes cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/cli-cursor 367ms (cache revalidated)
+174 silly packumentCache full:https://registry.npmjs.org/cli-cursor set size:18913 disposed:false
+175 silly fetch manifest cli-truncate@^2.1.0
+176 silly packumentCache full:https://registry.npmjs.org/cli-truncate cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/stack-utils 371ms (cache revalidated)
+178 silly packumentCache full:https://registry.npmjs.org/stack-utils set size:60586 disposed:false
+179 silly fetch manifest code-excerpt@^3.0.0
+180 silly packumentCache full:https://registry.npmjs.org/code-excerpt cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/signal-exit 386ms (cache revalidated)
+182 silly packumentCache full:https://registry.npmjs.org/signal-exit set size:53489 disposed:false
+183 silly fetch manifest string-width@^4.2.2
+184 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 440ms (cache revalidated)
+186 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:51143 disposed:false
+187 silly fetch manifest indent-string@^4.0.0
+188 silly packumentCache full:https://registry.npmjs.org/indent-string cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/slice-ansi 412ms (cache revalidated)
+190 silly packumentCache full:https://registry.npmjs.org/slice-ansi set size:30549 disposed:false
+191 silly fetch manifest patch-console@^1.0.0
+192 silly packumentCache full:https://registry.npmjs.org/patch-console cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/ansi-escapes 164ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmjs.org/ansi-escapes set size:61494 disposed:false
+195 silly fetch manifest react-reconciler@^0.26.2
+196 silly packumentCache full:https://registry.npmjs.org/react-reconciler cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/string-width 176ms (cache revalidated)
+198 silly packumentCache full:https://registry.npmjs.org/string-width set size:61460 disposed:false
+199 silly fetch manifest react-devtools-core@^4.19.1
+200 silly packumentCache full:https://registry.npmjs.org/react-devtools-core cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/react-devtools-core 111ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/react-devtools-core set size:454282 disposed:false
+203 silly fetch manifest yoga-layout-prebuilt@^1.9.6
+204 silly packumentCache full:https://registry.npmjs.org/yoga-layout-prebuilt cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/widest-line 560ms (cache revalidated)
+206 silly packumentCache full:https://registry.npmjs.org/widest-line set size:21166 disposed:false
+207 silly fetch manifest prop-types@^15.6.2
+208 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/indent-string 323ms (cache revalidated)
+210 silly packumentCache full:https://registry.npmjs.org/indent-string set size:28547 disposed:false
+211 silly fetch manifest loose-envify@^1.1.0
+212 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/cli-truncate 374ms (cache revalidated)
+214 silly packumentCache full:https://registry.npmjs.org/cli-truncate set size:25521 disposed:false
+215 silly fetch manifest object-assign@^4.1.1
+216 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/code-excerpt 378ms (cache revalidated)
+218 silly packumentCache full:https://registry.npmjs.org/code-excerpt set size:17656 disposed:false
+219 silly fetch manifest prop-types@^15.7.2
+220 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/react-reconciler 361ms (cache revalidated)
+222 silly packumentCache full:https://registry.npmjs.org/react-reconciler set size:5352844 disposed:false
+223 silly fetch manifest terminal-link@^2.1.1
+224 silly packumentCache full:https://registry.npmjs.org/terminal-link cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/prop-types 361ms (cache revalidated)
+226 silly packumentCache full:https://registry.npmjs.org/prop-types set size:76747 disposed:false
+227 silly fetch manifest figures@^3.2.0
+228 silly packumentCache full:https://registry.npmjs.org/figures cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/prop-types 333ms (cache revalidated)
+230 silly packumentCache full:https://registry.npmjs.org/prop-types set size:76747 disposed:false
+231 silly packumentCache full:https://registry.npmjs.org/prop-types dispose
+232 silly fetch manifest arr-rotate@^1.0.0
+233 silly packumentCache full:https://registry.npmjs.org/arr-rotate cache-miss
+234 http fetch GET 200 https://registry.npmjs.org/object-assign 377ms (cache revalidated)
+235 silly packumentCache full:https://registry.npmjs.org/object-assign set size:28988 disposed:false
+236 silly fetch manifest lodash.isequal@^4.5.0
+237 silly packumentCache full:https://registry.npmjs.org/lodash.isequal cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/loose-envify 396ms (cache revalidated)
+239 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:12559 disposed:false
+240 silly fetch manifest type-fest@^0.15.1
+241 silly packumentCache full:https://registry.npmjs.org/type-fest cache-hit
+242 silly fetch manifest redent@^3.0.0
+243 silly packumentCache full:https://registry.npmjs.org/redent cache-miss
+244 http fetch GET 200 https://registry.npmjs.org/patch-console 754ms (cache revalidated)
+245 silly packumentCache full:https://registry.npmjs.org/patch-console set size:8003 disposed:false
+246 silly fetch manifest type-fest@^0.13.1
+247 silly packumentCache full:https://registry.npmjs.org/type-fest cache-hit
+248 silly fetch manifest read-pkg-up@^7.0.1
+249 silly packumentCache full:https://registry.npmjs.org/read-pkg-up cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/terminal-link 256ms (cache revalidated)
+251 silly packumentCache full:https://registry.npmjs.org/terminal-link set size:24809 disposed:false
+252 silly fetch manifest yargs-parser@^18.1.3
+253 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/yargs-parser 112ms (cache revalidated)
+255 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:238630 disposed:false
+256 silly fetch manifest trim-newlines@^3.0.0
+257 silly packumentCache full:https://registry.npmjs.org/trim-newlines cache-miss
+258 http fetch GET 200 https://registry.npmjs.org/arr-rotate 370ms (cache revalidated)
+259 silly packumentCache full:https://registry.npmjs.org/arr-rotate set size:2981 disposed:false
+260 silly fetch manifest camelcase-keys@^6.2.2
+261 silly packumentCache full:https://registry.npmjs.org/camelcase-keys cache-miss
+262 http fetch GET 200 https://registry.npmjs.org/redent 343ms (cache revalidated)
+263 silly packumentCache full:https://registry.npmjs.org/redent set size:10478 disposed:false
+264 silly fetch manifest hard-rejection@^2.1.0
+265 silly packumentCache full:https://registry.npmjs.org/hard-rejection cache-miss
+266 http fetch GET 200 https://registry.npmjs.org/figures 398ms (cache revalidated)
+267 silly packumentCache full:https://registry.npmjs.org/figures set size:64597 disposed:false
+268 silly fetch manifest @types/minimist@^1.2.0
+269 silly packumentCache full:https://registry.npmjs.org/@types%2fminimist cache-miss
+270 http fetch GET 200 https://registry.npmjs.org/lodash.isequal 384ms (cache revalidated)
+271 silly packumentCache full:https://registry.npmjs.org/lodash.isequal set size:48202 disposed:false
+272 silly fetch manifest decamelize-keys@^1.1.0
+273 silly packumentCache full:https://registry.npmjs.org/decamelize-keys cache-miss
+274 http fetch GET 200 https://registry.npmjs.org/read-pkg-up 341ms (cache revalidated)
+275 silly packumentCache full:https://registry.npmjs.org/read-pkg-up set size:35986 disposed:false
+276 silly fetch manifest minimist-options@4.1.0
+277 silly packumentCache full:https://registry.npmjs.org/minimist-options cache-miss
+278 http fetch GET 200 https://registry.npmjs.org/yoga-layout-prebuilt 852ms (cache revalidated)
+279 silly packumentCache full:https://registry.npmjs.org/yoga-layout-prebuilt set size:11834 disposed:false
+280 silly fetch manifest normalize-package-data@^2.5.0
+281 silly packumentCache full:https://registry.npmjs.org/normalize-package-data cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/trim-newlines 292ms (cache revalidated)
+283 silly packumentCache full:https://registry.npmjs.org/trim-newlines set size:27396 disposed:false
+284 silly fetch manifest whatwg-url@^5.0.0
+285 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+286 http fetch GET 200 https://registry.npmjs.org/decamelize-keys 318ms (cache revalidated)
+287 silly packumentCache full:https://registry.npmjs.org/decamelize-keys set size:15160 disposed:false
+288 silly fetch manifest is-wsl@^2.1.1
+289 silly packumentCache full:https://registry.npmjs.org/is-wsl cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/camelcase-keys 360ms (cache revalidated)
+291 silly packumentCache full:https://registry.npmjs.org/camelcase-keys set size:77392 disposed:false
+292 silly fetch manifest is-docker@^2.0.0
+293 silly packumentCache full:https://registry.npmjs.org/is-docker cache-miss
+294 http fetch GET 200 https://registry.npmjs.org/hard-rejection 364ms (cache revalidated)
+295 silly packumentCache full:https://registry.npmjs.org/hard-rejection set size:12057 disposed:false
+296 silly fetch manifest pg-connection-string@^2.9.1
+297 silly packumentCache full:https://registry.npmjs.org/pg-connection-string cache-miss
+298 http fetch GET 200 https://registry.npmjs.org/minimist-options 350ms (cache revalidated)
+299 silly packumentCache full:https://registry.npmjs.org/minimist-options set size:25579 disposed:false
+300 silly fetch manifest pg-pool@^3.10.1
+301 silly packumentCache full:https://registry.npmjs.org/pg-pool cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/whatwg-url 137ms (cache revalidated)
+303 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:160604 disposed:false
+304 silly fetch manifest pg-protocol@^1.10.3
+305 silly packumentCache full:https://registry.npmjs.org/pg-protocol cache-miss
+306 http fetch GET 200 https://registry.npmjs.org/normalize-package-data 331ms (cache revalidated)
+307 silly packumentCache full:https://registry.npmjs.org/normalize-package-data set size:123102 disposed:false
+308 silly fetch manifest pg-types@2.2.0
+309 silly packumentCache full:https://registry.npmjs.org/pg-types cache-miss
+310 http fetch GET 200 https://registry.npmjs.org/is-docker 143ms (cache revalidated)
+311 silly packumentCache full:https://registry.npmjs.org/is-docker set size:21642 disposed:false
+312 silly fetch manifest pgpass@1.0.5
+313 silly packumentCache full:https://registry.npmjs.org/pgpass cache-miss
+314 http fetch GET 200 https://registry.npmjs.org/is-wsl 181ms (cache revalidated)
+315 silly packumentCache full:https://registry.npmjs.org/is-wsl set size:18741 disposed:false
+316 silly fetch manifest pg-cloudflare@^1.2.7
+317 silly packumentCache full:https://registry.npmjs.org/pg-cloudflare cache-miss
+318 http fetch GET 200 https://registry.npmjs.org/@types%2fminimist 531ms (cache revalidated)
+319 silly packumentCache full:https://registry.npmjs.org/@types%2fminimist set size:28018 disposed:false
+320 silly fetch manifest chownr@^2.0.0
+321 silly packumentCache full:https://registry.npmjs.org/chownr cache-miss
+322 http fetch GET 200 https://registry.npmjs.org/chownr 112ms (cache revalidated)
+323 silly packumentCache full:https://registry.npmjs.org/chownr set size:22157 disposed:false
+324 silly fetch manifest mkdirp@^1.0.3
+325 silly packumentCache full:https://registry.npmjs.org/mkdirp cache-miss
+326 http fetch GET 200 https://registry.npmjs.org/pg-types 297ms (cache revalidated)
+327 silly packumentCache full:https://registry.npmjs.org/pg-types set size:49222 disposed:false
+328 silly fetch manifest yallist@^4.0.0
+329 silly packumentCache full:https://registry.npmjs.org/yallist cache-miss
+330 http fetch GET 200 https://registry.npmjs.org/pg-connection-string 350ms (cache revalidated)
+331 silly packumentCache full:https://registry.npmjs.org/pg-connection-string set size:65300 disposed:false
+332 silly fetch manifest minipass@^5.0.0
+333 silly packumentCache full:https://registry.npmjs.org/minipass cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/pg-protocol 336ms (cache revalidated)
+335 silly packumentCache full:https://registry.npmjs.org/pg-protocol set size:45835 disposed:false
+336 silly fetch manifest minizlib@^2.1.1
+337 silly packumentCache full:https://registry.npmjs.org/minizlib cache-miss
+338 http fetch GET 200 https://registry.npmjs.org/mkdirp 138ms (cache revalidated)
+339 silly packumentCache full:https://registry.npmjs.org/mkdirp set size:116455 disposed:false
+340 silly fetch manifest fs-minipass@^2.0.0
+341 silly packumentCache full:https://registry.npmjs.org/fs-minipass cache-miss
+342 http fetch GET 200 https://registry.npmjs.org/yallist 109ms (cache revalidated)
+343 silly packumentCache full:https://registry.npmjs.org/yallist set size:34610 disposed:false
+344 silly fetch manifest registry-auth-token@3.3.2
+345 silly packumentCache full:https://registry.npmjs.org/registry-auth-token cache-miss
+346 http fetch GET 200 https://registry.npmjs.org/pg-cloudflare 314ms (cache revalidated)
+347 silly packumentCache full:https://registry.npmjs.org/pg-cloudflare set size:19109 disposed:false
+348 silly fetch manifest registry-url@3.1.0
+349 silly packumentCache full:https://registry.npmjs.org/registry-url cache-miss
+350 http fetch GET 200 https://registry.npmjs.org/minizlib 111ms (cache revalidated)
+351 silly packumentCache full:https://registry.npmjs.org/minizlib set size:60325 disposed:false
+352 http fetch GET 200 https://registry.npmjs.org/minipass 146ms (cache revalidated)
+353 silly packumentCache full:https://registry.npmjs.org/minipass set size:490195 disposed:false
+354 http fetch GET 200 https://registry.npmjs.org/fs-minipass 312ms (cache revalidated)
+355 silly packumentCache full:https://registry.npmjs.org/fs-minipass set size:44606 disposed:false
+356 http fetch GET 200 https://registry.npmjs.org/registry-auth-token 322ms (cache revalidated)
+357 silly packumentCache full:https://registry.npmjs.org/registry-auth-token set size:62354 disposed:false
+358 http fetch GET 200 https://registry.npmjs.org/registry-url 314ms (cache revalidated)
+359 silly packumentCache full:https://registry.npmjs.org/registry-url set size:35136 disposed:false
+360 http fetch GET 200 https://registry.npmjs.org/pg-pool 970ms (cache revalidated)
+361 silly packumentCache full:https://registry.npmjs.org/pg-pool set size:125914 disposed:false
+362 http fetch GET 200 https://registry.npmjs.org/pgpass 857ms (cache revalidated)
+363 silly packumentCache full:https://registry.npmjs.org/pgpass set size:26739 disposed:false
+364 silly placeDep node_modules/railway @types/minipass@3.1.2 OK for: @types/tar@4.0.5 want: *
+365 silly placeDep node_modules/railway @types/node@24.0.10 OK for: @types/tar@4.0.5 want: *
+366 silly fetch manifest undici-types@~7.8.0
+367 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+368 http fetch GET 200 https://registry.npmjs.org/undici-types 106ms (cache revalidated)
+369 silly packumentCache full:https://registry.npmjs.org/undici-types set size:139108 disposed:false
+370 silly placeDep node_modules/railway undici-types@7.8.0 OK for: @types/node@24.0.10 want: ~7.8.0
+371 silly placeDep node_modules/railway ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+372 silly placeDep node_modules/railway supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+373 silly fetch manifest color-convert@^2.0.1
+374 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+375 silly fetch manifest has-flag@^4.0.0
+376 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+377 http fetch GET 200 https://registry.npmjs.org/has-flag 107ms (cache revalidated)
+378 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+379 http fetch GET 200 https://registry.npmjs.org/color-convert 125ms (cache revalidated)
+380 silly packumentCache full:https://registry.npmjs.org/color-convert set size:68789 disposed:false
+381 silly placeDep node_modules/railway color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+382 silly fetch manifest color-name@~1.1.4
+383 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+384 http fetch GET 200 https://registry.npmjs.org/color-name 103ms (cache revalidated)
+385 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+386 silly placeDep node_modules/railway color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+387 silly fetch manifest bufferutil@^4.0.1
+388 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+389 http fetch GET 200 https://registry.npmjs.org/bufferutil 103ms (cache revalidated)
+390 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+391 silly fetch manifest utf-8-validate@^5.0.2
+392 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+393 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 112ms (cache revalidated)
+394 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+395 silly fetch manifest react@>=16.8.0
+396 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+397 http cache https://registry.npmjs.org/react 68ms (cache hit)
+398 silly packumentCache full:https://registry.npmjs.org/react set size:5829097 disposed:false
+399 silly fetch manifest react@^17.0.2
+400 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+401 http cache https://registry.npmjs.org/react 66ms (cache hit)
+402 silly packumentCache full:https://registry.npmjs.org/react set size:5829097 disposed:false
+403 silly placeDep node_modules/railway ansi-escapes@4.3.2 OK for: ink@3.2.0 want: ^4.2.1
+404 silly placeDep node_modules/railway auto-bind@4.0.0 OK for: ink@3.2.0 want: 4.0.0
+405 silly placeDep node_modules/railway cli-boxes@2.2.1 OK for: ink@3.2.0 want: ^2.2.0
+406 silly placeDep node_modules/railway cli-cursor@3.1.0 OK for: ink@3.2.0 want: ^3.1.0
+407 silly placeDep node_modules/railway cli-truncate@2.1.0 OK for: ink@3.2.0 want: ^2.1.0
+408 silly placeDep node_modules/railway code-excerpt@3.0.0 OK for: ink@3.2.0 want: ^3.0.0
+409 silly placeDep node_modules/railway indent-string@4.0.0 OK for: ink@3.2.0 want: ^4.0.0
+410 silly placeDep node_modules/railway is-ci@2.0.0 OK for: ink@3.2.0 want: ^2.0.0
+411 silly placeDep node_modules/railway lodash@4.17.21 OK for: ink@3.2.0 want: ^4.17.20
+412 silly placeDep node_modules/railway patch-console@1.0.0 OK for: ink@3.2.0 want: ^1.0.0
+413 silly placeDep node_modules/railway react-devtools-core@4.28.5 OK for: ink@3.2.0 want: ^4.19.1
+414 silly placeDep node_modules/railway/node_modules/ink react-reconciler@0.26.2 CONFLICT for: ink@3.2.0 want: ^0.26.2
+415 warn ERESOLVE overriding peer dependency {
+415 warn ERESOLVE   code: 'ERESOLVE',
+415 warn ERESOLVE   edge: {
+415 warn ERESOLVE     type: 'peer',
+415 warn ERESOLVE     name: 'react',
+415 warn ERESOLVE     spec: '^17.0.2',
+415 warn ERESOLVE     error: 'INVALID',
+415 warn ERESOLVE     from: {
+415 warn ERESOLVE       name: 'react-reconciler',
+415 warn ERESOLVE       version: '0.26.2',
+415 warn ERESOLVE       location: 'node_modules/railway/node_modules/ink/node_modules/react-reconciler',
+415 warn ERESOLVE       isWorkspace: false,
+415 warn ERESOLVE       dependents: [Array]
+415 warn ERESOLVE     }
+415 warn ERESOLVE   },
+415 warn ERESOLVE   dep: {
+415 warn ERESOLVE     name: 'react',
+415 warn ERESOLVE     version: '17.0.2',
+415 warn ERESOLVE     whileInstalling: {
+415 warn ERESOLVE       name: 'ink',
+415 warn ERESOLVE       version: '3.2.0',
+415 warn ERESOLVE       path: '/data/data/com.termux/files/usr/lib/node_modules/railway/node_modules/ink'
+415 warn ERESOLVE     },
+415 warn ERESOLVE     location: 'node_modules/react',
+415 warn ERESOLVE     isWorkspace: false,
+415 warn ERESOLVE     dependents: [ [Object] ]
+415 warn ERESOLVE   },
+415 warn ERESOLVE   force: false,
+415 warn ERESOLVE   isMine: false,
+415 warn ERESOLVE   strictPeerDeps: false,
+415 warn ERESOLVE   current: {
+415 warn ERESOLVE     name: 'react',
+415 warn ERESOLVE     version: '16.14.0',
+415 warn ERESOLVE     location: 'node_modules/railway/node_modules/react',
+415 warn ERESOLVE     isWorkspace: false,
+415 warn ERESOLVE     dependents: [ [Object] ]
+415 warn ERESOLVE   },
+415 warn ERESOLVE   peerConflict: {
+415 warn ERESOLVE     name: 'react',
+415 warn ERESOLVE     version: '16.14.0',
+415 warn ERESOLVE     location: 'node_modules/railway/node_modules/react',
+415 warn ERESOLVE     isWorkspace: false,
+415 warn ERESOLVE     dependents: [ [Object] ]
+415 warn ERESOLVE   }
+415 warn ERESOLVE }
+416 silly placeDep node_modules/railway scheduler@0.20.2 OK for: ink@3.2.0 want: ^0.20.2
+417 silly placeDep node_modules/railway signal-exit@3.0.7 OK for: ink@3.2.0 want: ^3.0.2
+418 silly placeDep node_modules/railway slice-ansi@3.0.0 OK for: ink@3.2.0 want: ^3.0.0
+419 silly placeDep node_modules/railway stack-utils@2.0.6 OK for: ink@3.2.0 want: ^2.0.2
+420 silly placeDep node_modules/railway string-width@4.2.3 OK for: ink@3.2.0 want: ^4.2.2
+421 silly placeDep node_modules/railway type-fest@0.12.0 OK for: ink@3.2.0 want: ^0.12.0
+422 silly placeDep node_modules/railway widest-line@3.1.0 OK for: ink@3.2.0 want: ^3.1.0
+423 silly placeDep node_modules/railway wrap-ansi@6.2.0 OK for: ink@3.2.0 want: ^6.2.0
+424 silly placeDep node_modules/railway ws@7.5.10 OK for: ink@3.2.0 want: ^7.5.5
+425 silly placeDep node_modules/railway yoga-layout-prebuilt@1.10.0 OK for: ink@3.2.0 want: ^1.9.6
+426 silly fetch manifest type-fest@^0.21.3
+427 silly packumentCache full:https://registry.npmjs.org/type-fest cache-hit
+428 silly fetch manifest restore-cursor@^3.1.0
+429 silly packumentCache full:https://registry.npmjs.org/restore-cursor cache-miss
+430 silly fetch manifest string-width@^4.2.0
+431 silly packumentCache full:https://registry.npmjs.org/string-width cache-hit
+432 silly fetch manifest convert-to-spaces@^1.0.1
+433 silly packumentCache full:https://registry.npmjs.org/convert-to-spaces cache-miss
+434 silly fetch manifest ci-info@^2.0.0
+435 silly packumentCache full:https://registry.npmjs.org/ci-info cache-miss
+436 silly fetch manifest ws@^7
+437 silly packumentCache full:https://registry.npmjs.org/ws cache-hit
+438 silly fetch manifest shell-quote@^1.6.1
+439 silly packumentCache full:https://registry.npmjs.org/shell-quote cache-miss
+440 silly fetch manifest astral-regex@^2.0.0
+441 silly packumentCache full:https://registry.npmjs.org/astral-regex cache-miss
+442 silly fetch manifest is-fullwidth-code-point@^3.0.0
+443 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+444 silly fetch manifest escape-string-regexp@^2.0.0
+445 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+446 http fetch GET 200 https://registry.npmjs.org/shell-quote 119ms (cache revalidated)
+447 silly packumentCache full:https://registry.npmjs.org/shell-quote set size:61937 disposed:false
+448 silly fetch manifest strip-ansi@^6.0.1
+449 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+450 http fetch GET 200 https://registry.npmjs.org/ci-info 157ms (cache revalidated)
+451 silly packumentCache full:https://registry.npmjs.org/ci-info set size:86659 disposed:false
+452 silly fetch manifest emoji-regex@^8.0.0
+453 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+454 http fetch GET 200 https://registry.npmjs.org/restore-cursor 172ms (cache revalidated)
+455 silly packumentCache full:https://registry.npmjs.org/restore-cursor set size:17895 disposed:false
+456 silly fetch manifest is-fullwidth-code-point@^3.0.0
+457 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+458 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 158ms (cache revalidated)
+459 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:22244 disposed:false
+460 silly fetch manifest strip-ansi@^6.0.0
+461 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+462 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 170ms (cache revalidated)
+463 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+464 silly fetch manifest @types/yoga-layout@1.9.2
+465 silly packumentCache full:https://registry.npmjs.org/@types%2fyoga-layout cache-miss
+466 http cache https://registry.npmjs.org/is-fullwidth-code-point 59ms (cache hit)
+467 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+468 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point dispose
+469 http fetch GET 200 https://registry.npmjs.org/strip-ansi 168ms (cache revalidated)
+470 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+471 http fetch GET 200 https://registry.npmjs.org/convert-to-spaces 320ms (cache revalidated)
+472 silly packumentCache full:https://registry.npmjs.org/convert-to-spaces set size:11707 disposed:false
+473 http fetch GET 200 https://registry.npmjs.org/strip-ansi 143ms (cache revalidated)
+474 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+475 silly packumentCache full:https://registry.npmjs.org/strip-ansi dispose
+476 http fetch GET 200 https://registry.npmjs.org/emoji-regex 172ms (cache revalidated)
+477 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:85187 disposed:false
+478 http fetch GET 200 https://registry.npmjs.org/astral-regex 333ms (cache revalidated)
+479 silly packumentCache full:https://registry.npmjs.org/astral-regex set size:5602 disposed:false
+480 http fetch GET 200 https://registry.npmjs.org/@types%2fyoga-layout 528ms (cache revalidated)
+481 silly packumentCache full:https://registry.npmjs.org/@types%2fyoga-layout set size:18172 disposed:false
+482 silly placeDep node_modules/railway/node_modules/ansi-escapes type-fest@0.21.3 OK for: ansi-escapes@4.3.2 want: ^0.21.3
+483 silly placeDep node_modules/railway restore-cursor@3.1.0 OK for: cli-cursor@3.1.0 want: ^3.1.0
+484 silly fetch manifest onetime@^5.1.0
+485 silly packumentCache full:https://registry.npmjs.org/onetime cache-miss
+486 http fetch GET 200 https://registry.npmjs.org/onetime 119ms (cache revalidated)
+487 silly packumentCache full:https://registry.npmjs.org/onetime set size:30525 disposed:false
+488 silly placeDep node_modules/railway convert-to-spaces@1.0.2 OK for: code-excerpt@3.0.0 want: ^1.0.1
+489 silly placeDep node_modules/railway prop-types@15.8.1 OK for: ink-link@1.1.0 want: ^15.7.2
+490 silly placeDep node_modules/railway terminal-link@2.1.1 OK for: ink-link@1.1.0 want: ^2.1.1
+491 silly fetch manifest loose-envify@^1.4.0
+492 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-hit
+493 silly fetch manifest react-is@^16.13.1
+494 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+495 silly fetch manifest supports-hyperlinks@^2.0.0
+496 silly packumentCache full:https://registry.npmjs.org/supports-hyperlinks cache-miss
+497 http fetch GET 200 https://registry.npmjs.org/react-is 133ms (cache revalidated)
+498 silly packumentCache full:https://registry.npmjs.org/react-is set size:4740202 disposed:false
+499 http fetch GET 200 https://registry.npmjs.org/supports-hyperlinks 301ms (cache revalidated)
+500 silly packumentCache full:https://registry.npmjs.org/supports-hyperlinks set size:28744 disposed:false
+501 silly placeDep node_modules/railway arr-rotate@1.0.0 OK for: ink-select-input@4.2.2 want: ^1.0.0
+502 silly placeDep node_modules/railway figures@3.2.0 OK for: ink-select-input@4.2.2 want: ^3.2.0
+503 silly placeDep node_modules/railway lodash.isequal@4.5.0 OK for: ink-select-input@4.2.2 want: ^4.5.0
+504 silly fetch manifest escape-string-regexp@^1.0.5
+505 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-hit
+506 silly placeDep node_modules/railway escape-string-regexp@1.0.5 OK for: figures@3.2.0 want: ^1.0.5
+507 silly placeDep node_modules/railway/node_modules/ink-text-input type-fest@0.15.1 OK for: ink-text-input@4.0.3 want: ^0.15.1
+508 silly placeDep node_modules/railway ci-info@2.0.0 OK for: is-ci@2.0.0 want: ^2.0.0
+509 silly placeDep node_modules/railway @types/minimist@1.2.5 OK for: meow@7.1.1 want: ^1.2.0
+510 silly placeDep node_modules/railway camelcase-keys@6.2.2 OK for: meow@7.1.1 want: ^6.2.2
+511 silly placeDep node_modules/railway decamelize-keys@1.1.1 OK for: meow@7.1.1 want: ^1.1.0
+512 silly placeDep node_modules/railway hard-rejection@2.1.0 OK for: meow@7.1.1 want: ^2.1.0
+513 silly placeDep node_modules/railway minimist-options@4.1.0 OK for: meow@7.1.1 want: 4.1.0
+514 silly placeDep node_modules/railway normalize-package-data@2.5.0 OK for: meow@7.1.1 want: ^2.5.0
+515 silly placeDep node_modules/railway read-pkg-up@7.0.1 OK for: meow@7.1.1 want: ^7.0.1
+516 silly placeDep node_modules/railway redent@3.0.0 OK for: meow@7.1.1 want: ^3.0.0
+517 silly placeDep node_modules/railway trim-newlines@3.0.1 OK for: meow@7.1.1 want: ^3.0.0
+518 silly placeDep node_modules/railway/node_modules/meow type-fest@0.13.1 OK for: meow@7.1.1 want: ^0.13.1
+519 silly placeDep node_modules/railway yargs-parser@18.1.3 OK for: meow@7.1.1 want: ^18.1.3
+520 silly fetch manifest camelcase@^5.3.1
+521 silly packumentCache full:https://registry.npmjs.org/camelcase cache-miss
+522 silly fetch manifest map-obj@^4.0.0
+523 silly packumentCache full:https://registry.npmjs.org/map-obj cache-miss
+524 silly fetch manifest quick-lru@^4.0.1
+525 silly packumentCache full:https://registry.npmjs.org/quick-lru cache-miss
+526 silly fetch manifest decamelize@^1.1.0
+527 silly packumentCache full:https://registry.npmjs.org/decamelize cache-miss
+528 silly fetch manifest map-obj@^1.0.0
+529 silly packumentCache full:https://registry.npmjs.org/map-obj cache-miss
+530 silly fetch manifest arrify@^1.0.1
+531 silly packumentCache full:https://registry.npmjs.org/arrify cache-miss
+532 silly fetch manifest is-plain-obj@^1.1.0
+533 silly packumentCache full:https://registry.npmjs.org/is-plain-obj cache-miss
+534 http fetch GET 200 https://registry.npmjs.org/is-plain-obj 110ms (cache revalidated)
+535 silly packumentCache full:https://registry.npmjs.org/is-plain-obj set size:17899 disposed:false
+536 silly fetch manifest kind-of@^6.0.3
+537 silly packumentCache full:https://registry.npmjs.org/kind-of cache-miss
+538 http fetch GET 200 https://registry.npmjs.org/camelcase 130ms (cache revalidated)
+539 silly packumentCache full:https://registry.npmjs.org/camelcase set size:57059 disposed:false
+540 silly fetch manifest semver@2 || 3 || 4 || 5
+541 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+542 http fetch GET 200 https://registry.npmjs.org/semver 83ms (cache revalidated)
+543 silly packumentCache full:https://registry.npmjs.org/semver set size:224186 disposed:false
+544 silly fetch manifest resolve@^1.10.0
+545 silly packumentCache full:https://registry.npmjs.org/resolve cache-miss
+546 http fetch GET 200 https://registry.npmjs.org/kind-of 116ms (cache revalidated)
+547 silly packumentCache full:https://registry.npmjs.org/kind-of set size:70901 disposed:false
+548 silly fetch manifest hosted-git-info@^2.1.4
+549 silly packumentCache full:https://registry.npmjs.org/hosted-git-info cache-miss
+550 http fetch GET 200 https://registry.npmjs.org/map-obj 291ms (cache revalidated)
+551 silly packumentCache full:https://registry.npmjs.org/map-obj set size:32594 disposed:false
+552 silly fetch manifest validate-npm-package-license@^3.0.1
+553 silly packumentCache full:https://registry.npmjs.org/validate-npm-package-license cache-miss
+554 http fetch GET 200 https://registry.npmjs.org/map-obj 301ms (cache revalidated)
+555 silly packumentCache full:https://registry.npmjs.org/map-obj set size:32594 disposed:false
+556 silly packumentCache full:https://registry.npmjs.org/map-obj dispose
+557 silly fetch manifest find-up@^4.1.0
+558 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+559 http fetch GET 200 https://registry.npmjs.org/decamelize 306ms (cache revalidated)
+560 silly packumentCache full:https://registry.npmjs.org/decamelize set size:32733 disposed:false
+561 silly fetch manifest read-pkg@^5.2.0
+562 silly packumentCache full:https://registry.npmjs.org/read-pkg cache-miss
+563 http fetch GET 200 https://registry.npmjs.org/quick-lru 331ms (cache revalidated)
+564 silly packumentCache full:https://registry.npmjs.org/quick-lru set size:44955 disposed:false
+565 silly fetch manifest type-fest@^0.8.1
+566 silly packumentCache full:https://registry.npmjs.org/type-fest cache-hit
+567 silly fetch manifest strip-indent@^3.0.0
+568 silly packumentCache full:https://registry.npmjs.org/strip-indent cache-miss
+569 http fetch GET 200 https://registry.npmjs.org/arrify 345ms (cache revalidated)
+570 silly packumentCache full:https://registry.npmjs.org/arrify set size:11862 disposed:false
+571 silly fetch manifest camelcase@^5.0.0
+572 silly packumentCache full:https://registry.npmjs.org/camelcase cache-hit
+573 silly fetch manifest decamelize@^1.2.0
+574 silly packumentCache full:https://registry.npmjs.org/decamelize cache-hit
+575 http fetch GET 200 https://registry.npmjs.org/resolve 123ms (cache revalidated)
+576 silly packumentCache full:https://registry.npmjs.org/resolve set size:243806 disposed:false
+577 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 151ms (cache revalidated)
+578 silly packumentCache full:https://registry.npmjs.org/hosted-git-info set size:170959 disposed:false
+579 http fetch GET 200 https://registry.npmjs.org/find-up 101ms (cache revalidated)
+580 silly packumentCache full:https://registry.npmjs.org/find-up set size:38503 disposed:false
+581 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license 317ms (cache revalidated)
+582 silly packumentCache full:https://registry.npmjs.org/validate-npm-package-license set size:21821 disposed:false
+583 http fetch GET 200 https://registry.npmjs.org/read-pkg 304ms (cache revalidated)
+584 silly packumentCache full:https://registry.npmjs.org/read-pkg set size:40130 disposed:false
+585 http fetch GET 200 https://registry.npmjs.org/strip-indent 299ms (cache revalidated)
+586 silly packumentCache full:https://registry.npmjs.org/strip-indent set size:18074 disposed:false
+587 silly placeDep node_modules/railway camelcase@5.3.1 OK for: camelcase-keys@6.2.2 want: ^5.3.1
+588 silly placeDep node_modules/railway map-obj@4.3.0 OK for: camelcase-keys@6.2.2 want: ^4.0.0
+589 silly placeDep node_modules/railway quick-lru@4.0.1 OK for: camelcase-keys@6.2.2 want: ^4.0.1
+590 silly placeDep node_modules/railway decamelize@1.2.0 OK for: decamelize-keys@1.1.1 want: ^1.1.0
+591 silly placeDep node_modules/railway/node_modules/decamelize-keys map-obj@1.0.1 OK for: decamelize-keys@1.1.1 want: ^1.0.0
+592 silly placeDep node_modules/railway arrify@1.0.1 OK for: minimist-options@4.1.0 want: ^1.0.1
+593 silly placeDep node_modules/railway is-plain-obj@1.1.0 OK for: minimist-options@4.1.0 want: ^1.1.0
+594 silly placeDep node_modules/railway kind-of@6.0.3 OK for: minimist-options@4.1.0 want: ^6.0.3
+595 silly placeDep node_modules/railway whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+596 silly fetch manifest tr46@~0.0.3
+597 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+598 silly fetch manifest webidl-conversions@^3.0.0
+599 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+600 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 117ms (cache revalidated)
+601 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:41857 disposed:false
+602 http fetch GET 200 https://registry.npmjs.org/tr46 123ms (cache revalidated)
+603 silly packumentCache full:https://registry.npmjs.org/tr46 set size:45265 disposed:false
+604 silly placeDep node_modules/railway hosted-git-info@2.8.9 OK for: normalize-package-data@2.5.0 want: ^2.1.4
+605 silly placeDep node_modules/railway resolve@1.22.10 OK for: normalize-package-data@2.5.0 want: ^1.10.0
+606 silly placeDep node_modules/railway semver@5.7.2 OK for: normalize-package-data@2.5.0 want: 2 || 3 || 4 || 5
+607 silly placeDep node_modules/railway validate-npm-package-license@3.0.4 OK for: normalize-package-data@2.5.0 want: ^3.0.1
+608 silly fetch manifest is-core-module@^2.16.0
+609 silly packumentCache full:https://registry.npmjs.org/is-core-module cache-miss
+610 silly fetch manifest path-parse@^1.0.7
+611 silly packumentCache full:https://registry.npmjs.org/path-parse cache-miss
+612 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+613 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag cache-miss
+614 silly fetch manifest spdx-correct@^3.0.0
+615 silly packumentCache full:https://registry.npmjs.org/spdx-correct cache-miss
+616 silly fetch manifest spdx-expression-parse@^3.0.0
+617 silly packumentCache full:https://registry.npmjs.org/spdx-expression-parse cache-miss
+618 http fetch GET 200 https://registry.npmjs.org/path-parse 115ms (cache revalidated)
+619 silly packumentCache full:https://registry.npmjs.org/path-parse set size:14523 disposed:false
+620 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 131ms (cache revalidated)
+621 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag set size:6802 disposed:false
+622 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse 316ms (cache revalidated)
+623 silly packumentCache full:https://registry.npmjs.org/spdx-expression-parse set size:29500 disposed:false
+624 http fetch GET 200 https://registry.npmjs.org/is-core-module 327ms (cache revalidated)
+625 silly packumentCache full:https://registry.npmjs.org/is-core-module set size:71788 disposed:false
+626 http fetch GET 200 https://registry.npmjs.org/spdx-correct 346ms (cache revalidated)
+627 silly packumentCache full:https://registry.npmjs.org/spdx-correct set size:38642 disposed:false
+628 silly placeDep node_modules/railway is-docker@2.2.1 OK for: open@7.4.2 want: ^2.0.0
+629 silly placeDep node_modules/railway is-wsl@2.2.0 OK for: open@7.4.2 want: ^2.1.1
+630 silly fetch manifest pg@>=8.0
+631 silly packumentCache full:https://registry.npmjs.org/pg cache-hit
+632 silly placeDep node_modules/railway pg-cloudflare@1.2.7 OK for: pg@8.16.3 want: ^1.2.7
+633 silly placeDep node_modules/railway pg-connection-string@2.9.1 OK for: pg@8.16.3 want: ^2.9.1
+634 silly placeDep node_modules/railway pg-pool@3.10.1 OK for: pg@8.16.3 want: ^3.10.1
+635 silly placeDep node_modules/railway pg-protocol@1.10.3 OK for: pg@8.16.3 want: ^1.10.3
+636 silly placeDep node_modules/railway pg-types@2.2.0 OK for: pg@8.16.3 want: 2.2.0
+637 silly placeDep node_modules/railway pgpass@1.0.5 OK for: pg@8.16.3 want: 1.0.5
+638 silly fetch manifest pg-int8@1.0.1
+639 silly packumentCache full:https://registry.npmjs.org/pg-int8 cache-miss
+640 silly fetch manifest postgres-array@~2.0.0
+641 silly packumentCache full:https://registry.npmjs.org/postgres-array cache-miss
+642 silly fetch manifest postgres-bytea@~1.0.0
+643 silly packumentCache full:https://registry.npmjs.org/postgres-bytea cache-miss
+644 silly fetch manifest postgres-date@~1.0.4
+645 silly packumentCache full:https://registry.npmjs.org/postgres-date cache-miss
+646 silly fetch manifest postgres-interval@^1.1.0
+647 silly packumentCache full:https://registry.npmjs.org/postgres-interval cache-miss
+648 silly fetch manifest split2@^4.1.0
+649 silly packumentCache full:https://registry.npmjs.org/split2 cache-miss
+650 http fetch GET 200 https://registry.npmjs.org/postgres-date 320ms (cache revalidated)
+651 silly packumentCache full:https://registry.npmjs.org/postgres-date set size:27126 disposed:false
+652 http fetch GET 200 https://registry.npmjs.org/postgres-array 328ms (cache revalidated)
+653 silly packumentCache full:https://registry.npmjs.org/postgres-array set size:21967 disposed:false
+654 http fetch GET 200 https://registry.npmjs.org/pg-int8 333ms (cache revalidated)
+655 silly packumentCache full:https://registry.npmjs.org/pg-int8 set size:3652 disposed:false
+656 http fetch GET 200 https://registry.npmjs.org/split2 328ms (cache revalidated)
+657 silly packumentCache full:https://registry.npmjs.org/split2 set size:47438 disposed:false
+658 http fetch GET 200 https://registry.npmjs.org/postgres-bytea 444ms (cache revalidated)
+659 silly packumentCache full:https://registry.npmjs.org/postgres-bytea set size:9897 disposed:false
+660 http fetch GET 200 https://registry.npmjs.org/postgres-interval 674ms (cache revalidated)
+661 silly packumentCache full:https://registry.npmjs.org/postgres-interval set size:30514 disposed:false
+662 silly placeDep node_modules/railway pg-int8@1.0.1 OK for: pg-types@2.2.0 want: 1.0.1
+663 silly placeDep node_modules/railway postgres-array@2.0.0 OK for: pg-types@2.2.0 want: ~2.0.0
+664 silly placeDep node_modules/railway postgres-bytea@1.0.0 OK for: pg-types@2.2.0 want: ~1.0.0
+665 silly placeDep node_modules/railway postgres-date@1.0.7 OK for: pg-types@2.2.0 want: ~1.0.4
+666 silly placeDep node_modules/railway postgres-interval@1.2.0 OK for: pg-types@2.2.0 want: ^1.1.0
+667 silly fetch manifest xtend@^4.0.0
+668 silly packumentCache full:https://registry.npmjs.org/xtend cache-miss
+669 http fetch GET 200 https://registry.npmjs.org/xtend 299ms (cache revalidated)
+670 silly packumentCache full:https://registry.npmjs.org/xtend set size:28314 disposed:false
+671 silly placeDep node_modules/railway split2@4.2.0 OK for: pgpass@1.0.5 want: ^4.1.0
+672 silly placeDep node_modules/railway xtend@4.0.2 OK for: postgres-interval@1.2.0 want: ^4.0.0
+673 silly placeDep node_modules/railway loose-envify@1.4.0 OK for: prop-types@15.8.1 want: ^1.4.0
+674 silly placeDep node_modules/railway object-assign@4.1.1 OK for: prop-types@15.8.1 want: ^4.1.1
+675 silly placeDep node_modules/railway react-is@16.13.1 OK for: prop-types@15.8.1 want: ^16.13.1
+676 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+677 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+678 http fetch GET 200 https://registry.npmjs.org/js-tokens 96ms (cache revalidated)
+679 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:40514 disposed:false
+680 silly placeDep node_modules/railway js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+681 silly placeDep node_modules/railway shell-quote@1.8.3 OK for: react-devtools-core@4.28.5 want: ^1.6.1
+682 silly placeDep node_modules/railway find-up@4.1.0 OK for: read-pkg-up@7.0.1 want: ^4.1.0
+683 silly placeDep node_modules/railway read-pkg@5.2.0 OK for: read-pkg-up@7.0.1 want: ^5.2.0
+684 silly placeDep node_modules/railway/node_modules/read-pkg-up type-fest@0.8.1 OK for: read-pkg-up@7.0.1 want: ^0.8.1
+685 silly fetch manifest locate-path@^5.0.0
+686 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+687 silly fetch manifest path-exists@^4.0.0
+688 silly packumentCache full:https://registry.npmjs.org/path-exists cache-miss
+689 silly fetch manifest @types/normalize-package-data@^2.4.0
+690 silly packumentCache full:https://registry.npmjs.org/@types%2fnormalize-package-data cache-miss
+691 silly fetch manifest parse-json@^5.0.0
+692 silly packumentCache full:https://registry.npmjs.org/parse-json cache-miss
+693 silly fetch manifest type-fest@^0.6.0
+694 silly packumentCache full:https://registry.npmjs.org/type-fest cache-hit
+695 http fetch GET 200 https://registry.npmjs.org/parse-json 143ms (cache revalidated)
+696 silly packumentCache full:https://registry.npmjs.org/parse-json set size:48198 disposed:false
+697 http fetch GET 200 https://registry.npmjs.org/locate-path 323ms (cache revalidated)
+698 silly packumentCache full:https://registry.npmjs.org/locate-path set size:29792 disposed:false
+699 http fetch GET 200 https://registry.npmjs.org/path-exists 331ms (cache revalidated)
+700 silly packumentCache full:https://registry.npmjs.org/path-exists set size:13704 disposed:false
+701 http fetch GET 200 https://registry.npmjs.org/@types%2fnormalize-package-data 512ms (cache revalidated)
+702 silly packumentCache full:https://registry.npmjs.org/@types%2fnormalize-package-data set size:9914 disposed:false
+703 silly placeDep node_modules/railway locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+704 silly placeDep node_modules/railway path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+705 silly fetch manifest p-locate@^4.1.0
+706 silly packumentCache full:https://registry.npmjs.org/p-locate cache-miss
+707 http fetch GET 200 https://registry.npmjs.org/p-locate 106ms (cache revalidated)
+708 silly packumentCache full:https://registry.npmjs.org/p-locate set size:20789 disposed:false
+709 silly placeDep node_modules/railway p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+710 silly fetch manifest p-limit@^2.2.0
+711 silly packumentCache full:https://registry.npmjs.org/p-limit cache-miss
+712 http fetch GET 200 https://registry.npmjs.org/p-limit 111ms (cache revalidated)
+713 silly packumentCache full:https://registry.npmjs.org/p-limit set size:50060 disposed:false
+714 silly placeDep node_modules/railway p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+715 silly fetch manifest p-try@^2.0.0
+716 silly packumentCache full:https://registry.npmjs.org/p-try cache-miss
+717 http fetch GET 200 https://registry.npmjs.org/p-try 98ms (cache revalidated)
+718 silly packumentCache full:https://registry.npmjs.org/p-try set size:13014 disposed:false
+719 silly placeDep node_modules/railway p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+720 silly placeDep node_modules/railway @types/normalize-package-data@2.4.4 OK for: read-pkg@5.2.0 want: ^2.4.0
+721 silly placeDep node_modules/railway parse-json@5.2.0 OK for: read-pkg@5.2.0 want: ^5.0.0
+722 silly placeDep node_modules/railway/node_modules/read-pkg type-fest@0.6.0 OK for: read-pkg@5.2.0 want: ^0.6.0
+723 silly fetch manifest error-ex@^1.3.1
+724 silly packumentCache full:https://registry.npmjs.org/error-ex cache-miss
+725 silly fetch manifest @babel/code-frame@^7.0.0
+726 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame cache-miss
+727 silly fetch manifest lines-and-columns@^1.1.6
+728 silly packumentCache full:https://registry.npmjs.org/lines-and-columns cache-miss
+729 silly fetch manifest json-parse-even-better-errors@^2.3.0
+730 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors cache-miss
+731 http fetch GET 200 https://registry.npmjs.org/error-ex 96ms (cache revalidated)
+732 silly packumentCache full:https://registry.npmjs.org/error-ex set size:29963 disposed:false
+733 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 98ms (cache revalidated)
+734 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors set size:31947 disposed:false
+735 http fetch GET 200 https://registry.npmjs.org/lines-and-columns 103ms (cache revalidated)
+736 silly packumentCache full:https://registry.npmjs.org/lines-and-columns set size:73796 disposed:false
+737 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 118ms (cache revalidated)
+738 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame set size:180401 disposed:false
+739 silly placeDep node_modules/railway @babel/code-frame@7.27.1 OK for: parse-json@5.2.0 want: ^7.0.0
+740 silly placeDep node_modules/railway error-ex@1.3.2 OK for: parse-json@5.2.0 want: ^1.3.1
+741 silly placeDep node_modules/railway json-parse-even-better-errors@2.3.1 OK for: parse-json@5.2.0 want: ^2.3.0
+742 silly placeDep node_modules/railway lines-and-columns@1.2.4 OK for: parse-json@5.2.0 want: ^1.1.6
+743 silly fetch manifest picocolors@^1.1.1
+744 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+745 silly fetch manifest @babel/helper-validator-identifier@^7.27.1
+746 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier cache-miss
+747 silly fetch manifest is-arrayish@^0.2.1
+748 silly packumentCache full:https://registry.npmjs.org/is-arrayish cache-miss
+749 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 110ms (cache revalidated)
+750 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier set size:103638 disposed:false
+751 http fetch GET 200 https://registry.npmjs.org/is-arrayish 122ms (cache revalidated)
+752 silly packumentCache full:https://registry.npmjs.org/is-arrayish set size:13422 disposed:false
+753 http fetch GET 200 https://registry.npmjs.org/picocolors 127ms (cache revalidated)
+754 silly packumentCache full:https://registry.npmjs.org/picocolors set size:16648 disposed:false
+755 silly placeDep node_modules/railway @babel/helper-validator-identifier@7.27.1 OK for: @babel/code-frame@7.27.1 want: ^7.27.1
+756 silly placeDep node_modules/railway picocolors@1.1.1 OK for: @babel/code-frame@7.27.1 want: ^1.1.1
+757 silly placeDep node_modules/railway is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+758 silly placeDep node_modules/railway strip-indent@3.0.0 OK for: redent@3.0.0 want: ^3.0.0
+759 silly fetch manifest min-indent@^1.0.0
+760 silly packumentCache full:https://registry.npmjs.org/min-indent cache-miss
+761 http fetch GET 200 https://registry.npmjs.org/min-indent 325ms (cache revalidated)
+762 silly packumentCache full:https://registry.npmjs.org/min-indent set size:6021 disposed:false
+763 silly placeDep node_modules/railway is-core-module@2.16.1 OK for: resolve@1.22.10 want: ^2.16.0
+764 silly placeDep node_modules/railway path-parse@1.0.7 OK for: resolve@1.22.10 want: ^1.0.7
+765 silly placeDep node_modules/railway supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.10 want: ^1.0.0
+766 silly fetch manifest hasown@^2.0.2
+767 silly packumentCache full:https://registry.npmjs.org/hasown cache-miss
+768 http fetch GET 200 https://registry.npmjs.org/hasown 309ms (cache revalidated)
+769 silly packumentCache full:https://registry.npmjs.org/hasown set size:12476 disposed:false
+770 silly placeDep node_modules/railway hasown@2.0.2 OK for: is-core-module@2.16.1 want: ^2.0.2
+771 silly fetch manifest function-bind@^1.1.2
+772 silly packumentCache full:https://registry.npmjs.org/function-bind cache-miss
+773 http fetch GET 200 https://registry.npmjs.org/function-bind 129ms (cache revalidated)
+774 silly packumentCache full:https://registry.npmjs.org/function-bind set size:15733 disposed:false
+775 silly placeDep node_modules/railway function-bind@1.1.2 OK for: hasown@2.0.2 want: ^1.1.2
+776 silly placeDep node_modules/railway onetime@5.1.2 OK for: restore-cursor@3.1.0 want: ^5.1.0
+777 silly fetch manifest mimic-fn@^2.1.0
+778 silly packumentCache full:https://registry.npmjs.org/mimic-fn cache-miss
+779 http fetch GET 200 https://registry.npmjs.org/mimic-fn 102ms (cache revalidated)
+780 silly packumentCache full:https://registry.npmjs.org/mimic-fn set size:22257 disposed:false
+781 silly placeDep node_modules/railway mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+782 silly placeDep node_modules/railway astral-regex@2.0.0 OK for: slice-ansi@3.0.0 want: ^2.0.0
+783 silly placeDep node_modules/railway is-fullwidth-code-point@3.0.0 OK for: slice-ansi@3.0.0 want: ^3.0.0
+784 silly placeDep node_modules/railway/node_modules/stack-utils escape-string-regexp@2.0.0 OK for: stack-utils@2.0.6 want: ^2.0.0
+785 silly placeDep node_modules/railway emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+786 silly placeDep node_modules/railway strip-ansi@6.0.1 OK for: string-width@4.2.3 want: ^6.0.1
+787 silly fetch manifest ansi-regex@^5.0.1
+788 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+789 http fetch GET 200 https://registry.npmjs.org/ansi-regex 122ms (cache revalidated)
+790 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:41869 disposed:false
+791 silly placeDep node_modules/railway ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+792 silly placeDep node_modules/railway min-indent@1.0.1 OK for: strip-indent@3.0.0 want: ^1.0.0
+793 silly placeDep node_modules/railway has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+794 silly placeDep node_modules/railway chownr@2.0.0 OK for: tar@6.2.1 want: ^2.0.0
+795 silly placeDep node_modules/railway fs-minipass@2.1.0 OK for: tar@6.2.1 want: ^2.0.0
+796 silly placeDep node_modules/railway minipass@5.0.0 OK for: tar@6.2.1 want: ^5.0.0
+797 silly placeDep node_modules/railway minizlib@2.1.2 OK for: tar@6.2.1 want: ^2.1.1
+798 silly placeDep node_modules/railway mkdirp@1.0.4 OK for: tar@6.2.1 want: ^1.0.3
+799 silly placeDep node_modules/railway yallist@4.0.0 OK for: tar@6.2.1 want: ^4.0.0
+800 silly fetch manifest minipass@^3.0.0
+801 silly packumentCache full:https://registry.npmjs.org/minipass cache-hit
+802 silly fetch manifest minipass@^3.0.0
+803 silly packumentCache full:https://registry.npmjs.org/minipass cache-hit
+804 silly placeDep node_modules/railway/node_modules/fs-minipass minipass@3.3.6 OK for: fs-minipass@2.1.0 want: ^3.0.0
+805 silly placeDep node_modules/railway/node_modules/minizlib minipass@3.3.6 OK for: minizlib@2.1.2 want: ^3.0.0
+806 silly placeDep node_modules/railway supports-hyperlinks@2.3.0 OK for: terminal-link@2.1.1 want: ^2.0.0
+807 silly placeDep node_modules/railway registry-auth-token@3.3.2 OK for: update-check@1.5.4 want: 3.3.2
+808 silly placeDep node_modules/railway registry-url@3.1.0 OK for: update-check@1.5.4 want: 3.1.0
+809 silly fetch manifest rc@^1.1.6
+810 silly packumentCache full:https://registry.npmjs.org/rc cache-miss
+811 silly fetch manifest safe-buffer@^5.0.1
+812 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+813 silly fetch manifest rc@^1.0.1
+814 silly packumentCache full:https://registry.npmjs.org/rc cache-miss
+815 http fetch GET 200 https://registry.npmjs.org/safe-buffer 118ms (cache revalidated)
+816 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+817 http fetch GET 200 https://registry.npmjs.org/rc 125ms (cache revalidated)
+818 silly packumentCache full:https://registry.npmjs.org/rc set size:70417 disposed:false
+819 http fetch GET 200 https://registry.npmjs.org/rc 138ms (cache revalidated)
+820 silly packumentCache full:https://registry.npmjs.org/rc set size:70417 disposed:false
+821 silly packumentCache full:https://registry.npmjs.org/rc dispose
+822 silly placeDep node_modules/railway rc@1.2.8 OK for: registry-auth-token@3.3.2 want: ^1.1.6
+823 silly placeDep node_modules/railway safe-buffer@5.2.1 OK for: registry-auth-token@3.3.2 want: ^5.0.1
+824 silly fetch manifest ini@~1.3.0
+825 silly packumentCache full:https://registry.npmjs.org/ini cache-miss
+826 silly fetch manifest minimist@^1.2.0
+827 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+828 silly fetch manifest deep-extend@^0.6.0
+829 silly packumentCache full:https://registry.npmjs.org/deep-extend cache-miss
+830 silly fetch manifest strip-json-comments@~2.0.1
+831 silly packumentCache full:https://registry.npmjs.org/strip-json-comments cache-miss
+832 http fetch GET 200 https://registry.npmjs.org/minimist 112ms (cache revalidated)
+833 silly packumentCache full:https://registry.npmjs.org/minimist set size:77097 disposed:false
+834 http fetch GET 200 https://registry.npmjs.org/deep-extend 119ms (cache revalidated)
+835 silly packumentCache full:https://registry.npmjs.org/deep-extend set size:34472 disposed:false
+836 http fetch GET 200 https://registry.npmjs.org/ini 137ms (cache revalidated)
+837 silly packumentCache full:https://registry.npmjs.org/ini set size:54653 disposed:false
+838 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 313ms (cache revalidated)
+839 silly packumentCache full:https://registry.npmjs.org/strip-json-comments set size:41580 disposed:false
+840 silly placeDep node_modules/railway deep-extend@0.6.0 OK for: rc@1.2.8 want: ^0.6.0
+841 silly placeDep node_modules/railway ini@1.3.8 OK for: rc@1.2.8 want: ~1.3.0
+842 silly placeDep node_modules/railway minimist@1.2.8 OK for: rc@1.2.8 want: ^1.2.0
+843 silly placeDep node_modules/railway strip-json-comments@2.0.1 OK for: rc@1.2.8 want: ~2.0.1
+844 silly placeDep node_modules/railway spdx-correct@3.2.0 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+845 silly placeDep node_modules/railway spdx-expression-parse@3.0.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+846 silly fetch manifest spdx-license-ids@^3.0.0
+847 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids cache-miss
+848 silly fetch manifest spdx-exceptions@^2.1.0
+849 silly packumentCache full:https://registry.npmjs.org/spdx-exceptions cache-miss
+850 silly fetch manifest spdx-license-ids@^3.0.0
+851 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids cache-miss
+852 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions 310ms (cache revalidated)
+853 silly packumentCache full:https://registry.npmjs.org/spdx-exceptions set size:21227 disposed:false
+854 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 314ms (cache revalidated)
+855 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids set size:78316 disposed:false
+856 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 321ms (cache revalidated)
+857 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids set size:78316 disposed:false
+858 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids dispose
+859 silly placeDep node_modules/railway spdx-license-ids@3.0.21 OK for: spdx-correct@3.2.0 want: ^3.0.0
+860 silly placeDep node_modules/railway spdx-exceptions@2.5.0 OK for: spdx-expression-parse@3.0.1 want: ^2.1.0
+861 silly placeDep node_modules/railway tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+862 silly placeDep node_modules/railway webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+863 silly placeDep node_modules/railway @types/yoga-layout@1.9.2 OK for: yoga-layout-prebuilt@1.10.0 want: 1.9.2
+864 silly reify moves {}
+865 http cache railway@https://registry.npmjs.org/railway/-/railway-2.0.17.tgz 1ms (cache hit)
+866 http cache @types/yoga-layout@https://registry.npmjs.org/@types/yoga-layout/-/yoga-layout-1.9.2.tgz 0ms (cache hit)
+867 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 0ms (cache hit)
+868 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+869 http cache spdx-exceptions@https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.5.0.tgz 0ms (cache hit)
+870 http cache spdx-license-ids@https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz 0ms (cache hit)
+871 http cache spdx-expression-parse@https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz 1ms (cache hit)
+872 http cache spdx-correct@https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.2.0.tgz 0ms (cache hit)
+873 http cache strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 0ms (cache hit)
+874 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+875 http cache ini@https://registry.npmjs.org/ini/-/ini-1.3.8.tgz 0ms (cache hit)
+876 http cache deep-extend@https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz 0ms (cache hit)
+877 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+878 http cache rc@https://registry.npmjs.org/rc/-/rc-1.2.8.tgz 0ms (cache hit)
+879 http cache registry-url@https://registry.npmjs.org/registry-url/-/registry-url-3.1.0.tgz 0ms (cache hit)
+880 http cache registry-auth-token@https://registry.npmjs.org/registry-auth-token/-/registry-auth-token-3.3.2.tgz 0ms (cache hit)
+881 http cache supports-hyperlinks@https://registry.npmjs.org/supports-hyperlinks/-/supports-hyperlinks-2.3.0.tgz 0ms (cache hit)
+882 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 0ms (cache hit)
+883 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 0ms (cache hit)
+884 http cache minizlib@https://registry.npmjs.org/minizlib/-/minizlib-2.1.2.tgz 0ms (cache hit)
+885 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz 0ms (cache hit)
+886 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-5.0.0.tgz 0ms (cache hit)
+887 http cache fs-minipass@https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz 0ms (cache hit)
+888 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz 0ms (cache hit)
+889 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz 0ms (cache hit)
+890 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+891 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+892 http cache min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 0ms (cache hit)
+893 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+894 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+895 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+896 http cache astral-regex@https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz 0ms (cache hit)
+897 http cache mimic-fn@https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz 0ms (cache hit)
+898 http cache onetime@https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz 0ms (cache hit)
+899 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+900 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+901 http cache supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 0ms (cache hit)
+902 http cache path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 0ms (cache hit)
+903 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz 0ms (cache hit)
+904 http cache is-arrayish@https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz 0ms (cache hit)
+905 http cache strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 0ms (cache hit)
+906 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+907 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz 0ms (cache hit)
+908 http cache json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 0ms (cache hit)
+909 http cache lines-and-columns@https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz 0ms (cache hit)
+910 http cache error-ex@https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 0ms (cache hit)
+911 http cache parse-json@https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz 0ms (cache hit)
+912 http cache @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.27.1.tgz 0ms (cache hit)
+913 http cache @types/normalize-package-data@https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz 0ms (cache hit)
+914 http cache p-try@https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz 0ms (cache hit)
+915 http cache p-limit@https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz 0ms (cache hit)
+916 http cache path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 0ms (cache hit)
+917 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz 0ms (cache hit)
+918 http cache read-pkg@https://registry.npmjs.org/read-pkg/-/read-pkg-5.2.0.tgz 0ms (cache hit)
+919 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz 0ms (cache hit)
+920 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.6.0.tgz 0ms (cache hit)
+921 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz 0ms (cache hit)
+922 http cache shell-quote@https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.3.tgz 0ms (cache hit)
+923 http cache js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+924 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+925 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 0ms (cache hit)
+926 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+927 http cache xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 0ms (cache hit)
+928 http cache split2@https://registry.npmjs.org/split2/-/split2-4.2.0.tgz 0ms (cache hit)
+929 http cache postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz 0ms (cache hit)
+930 http cache postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz 0ms (cache hit)
+931 http cache postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz 0ms (cache hit)
+932 http cache postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz 0ms (cache hit)
+933 http cache pg-int8@https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz 0ms (cache hit)
+934 http cache pgpass@https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz 0ms (cache hit)
+935 http cache pg-types@https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz 0ms (cache hit)
+936 http cache pg-protocol@https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.10.3.tgz 0ms (cache hit)
+937 http cache pg-pool@https://registry.npmjs.org/pg-pool/-/pg-pool-3.10.1.tgz 0ms (cache hit)
+938 http cache pg-connection-string@https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.9.1.tgz 1ms (cache hit)
+939 http cache is-docker@https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz 0ms (cache hit)
+940 http cache pg-cloudflare@https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.2.7.tgz 0ms (cache hit)
+941 http cache is-wsl@https://registry.npmjs.org/is-wsl/-/is-wsl-2.2.0.tgz 0ms (cache hit)
+942 http cache validate-npm-package-license@https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz 0ms (cache hit)
+943 http cache semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 0ms (cache hit)
+944 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 0ms (cache hit)
+945 http cache hosted-git-info@https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz 1ms (cache hit)
+946 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+947 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 0ms (cache hit)
+948 http cache is-plain-obj@https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz 0ms (cache hit)
+949 http cache arrify@https://registry.npmjs.org/arrify/-/arrify-1.0.1.tgz 0ms (cache hit)
+950 http cache decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 0ms (cache hit)
+951 http cache quick-lru@https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz 0ms (cache hit)
+952 http cache map-obj@https://registry.npmjs.org/map-obj/-/map-obj-4.3.0.tgz 0ms (cache hit)
+953 http cache camelcase@https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz 0ms (cache hit)
+954 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-18.1.3.tgz 0ms (cache hit)
+955 http cache trim-newlines@https://registry.npmjs.org/trim-newlines/-/trim-newlines-3.0.1.tgz 0ms (cache hit)
+956 http cache redent@https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 0ms (cache hit)
+957 http cache read-pkg-up@https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-7.0.1.tgz 0ms (cache hit)
+958 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz 0ms (cache hit)
+959 http cache normalize-package-data@https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz 0ms (cache hit)
+960 http cache minimist-options@https://registry.npmjs.org/minimist-options/-/minimist-options-4.1.0.tgz 0ms (cache hit)
+961 http cache hard-rejection@https://registry.npmjs.org/hard-rejection/-/hard-rejection-2.1.0.tgz 0ms (cache hit)
+962 http cache decamelize-keys@https://registry.npmjs.org/decamelize-keys/-/decamelize-keys-1.1.1.tgz 0ms (cache hit)
+963 http cache map-obj@https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz 0ms (cache hit)
+964 http cache camelcase-keys@https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-6.2.2.tgz 0ms (cache hit)
+965 http cache @types/minimist@https://registry.npmjs.org/@types/minimist/-/minimist-1.2.5.tgz 0ms (cache hit)
+966 http cache ci-info@https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz 0ms (cache hit)
+967 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 0ms (cache hit)
+968 http cache lodash.isequal@https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz 1ms (cache hit)
+969 http cache figures@https://registry.npmjs.org/figures/-/figures-3.2.0.tgz 0ms (cache hit)
+970 http cache terminal-link@https://registry.npmjs.org/terminal-link/-/terminal-link-2.1.1.tgz 0ms (cache hit)
+971 http cache arr-rotate@https://registry.npmjs.org/arr-rotate/-/arr-rotate-1.0.0.tgz 0ms (cache hit)
+972 http cache prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 0ms (cache hit)
+973 http cache convert-to-spaces@https://registry.npmjs.org/convert-to-spaces/-/convert-to-spaces-1.0.2.tgz 0ms (cache hit)
+974 http cache yoga-layout-prebuilt@https://registry.npmjs.org/yoga-layout-prebuilt/-/yoga-layout-prebuilt-1.10.0.tgz 0ms (cache hit)
+975 http cache ws@https://registry.npmjs.org/ws/-/ws-7.5.10.tgz 0ms (cache hit)
+976 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz 0ms (cache hit)
+977 http cache widest-line@https://registry.npmjs.org/widest-line/-/widest-line-3.1.0.tgz 0ms (cache hit)
+978 http cache restore-cursor@https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz 1ms (cache hit)
+979 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.12.0.tgz 0ms (cache hit)
+980 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+981 http cache stack-utils@https://registry.npmjs.org/stack-utils/-/stack-utils-2.0.6.tgz 0ms (cache hit)
+982 http cache slice-ansi@https://registry.npmjs.org/slice-ansi/-/slice-ansi-3.0.0.tgz 0ms (cache hit)
+983 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz 0ms (cache hit)
+984 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+985 http cache react-devtools-core@https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-4.28.5.tgz 0ms (cache hit)
+986 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz 0ms (cache hit)
+987 http cache patch-console@https://registry.npmjs.org/patch-console/-/patch-console-1.0.0.tgz 0ms (cache hit)
+988 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 0ms (cache hit)
+989 http cache is-ci@https://registry.npmjs.org/is-ci/-/is-ci-2.0.0.tgz 0ms (cache hit)
+990 http cache indent-string@https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz 0ms (cache hit)
+991 http cache code-excerpt@https://registry.npmjs.org/code-excerpt/-/code-excerpt-3.0.0.tgz 0ms (cache hit)
+992 http cache cli-truncate@https://registry.npmjs.org/cli-truncate/-/cli-truncate-2.1.0.tgz 0ms (cache hit)
+993 http cache cli-cursor@https://registry.npmjs.org/cli-cursor/-/cli-cursor-3.1.0.tgz 0ms (cache hit)
+994 http cache cli-boxes@https://registry.npmjs.org/cli-boxes/-/cli-boxes-2.2.1.tgz 0ms (cache hit)
+995 http cache auto-bind@https://registry.npmjs.org/auto-bind/-/auto-bind-4.0.0.tgz 0ms (cache hit)
+996 http cache ansi-escapes@https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz 0ms (cache hit)
+997 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+998 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.21.3.tgz 0ms (cache hit)
+999 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+1000 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+1001 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+1002 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.8.0.tgz 0ms (cache hit)
+1003 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-24.0.10.tgz 0ms (cache hit)
+1004 http cache @types/minipass@https://registry.npmjs.org/@types/minipass/-/minipass-3.1.2.tgz 0ms (cache hit)
+1005 http cache update-check@https://registry.npmjs.org/update-check/-/update-check-1.5.4.tgz 0ms (cache hit)
+1006 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+1007 http cache tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz 1ms (cache hit)
+1008 http cache pg@https://registry.npmjs.org/pg/-/pg-8.16.3.tgz 0ms (cache hit)
+1009 http cache open@https://registry.npmjs.org/open/-/open-7.4.2.tgz 0ms (cache hit)
+1010 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+1011 http cache meow@https://registry.npmjs.org/meow/-/meow-7.1.1.tgz 0ms (cache hit)
+1012 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz 0ms (cache hit)
+1013 http cache ink-text-input@https://registry.npmjs.org/ink-text-input/-/ink-text-input-4.0.3.tgz 0ms (cache hit)
+1014 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.15.1.tgz 0ms (cache hit)
+1015 http cache ink-select-input@https://registry.npmjs.org/ink-select-input/-/ink-select-input-4.2.2.tgz 0ms (cache hit)
+1016 http cache ink-link@https://registry.npmjs.org/ink-link/-/ink-link-1.1.0.tgz 0ms (cache hit)
+1017 http cache react@https://registry.npmjs.org/react/-/react-16.14.0.tgz 0ms (cache hit)
+1018 http cache ink@https://registry.npmjs.org/ink/-/ink-3.2.0.tgz 0ms (cache hit)
+1019 http cache react-reconciler@https://registry.npmjs.org/react-reconciler/-/react-reconciler-0.26.2.tgz 0ms (cache hit)
+1020 http cache has-yarn@https://registry.npmjs.org/has-yarn/-/has-yarn-2.1.0.tgz 0ms (cache hit)
+1021 http cache get-port@https://registry.npmjs.org/get-port/-/get-port-5.1.1.tgz 0ms (cache hit)
+1022 http cache cli-spinners@https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.9.2.tgz 0ms (cache hit)
+1023 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+1024 http cache @types/tar@https://registry.npmjs.org/@types/tar/-/tar-4.0.5.tgz 0ms (cache hit)
+1025 warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+1026 silly ADD node_modules/railway
+1027 silly ADD node_modules/railway/node_modules/@types/yoga-layout
+1028 silly ADD node_modules/railway/node_modules/webidl-conversions
+1029 silly ADD node_modules/railway/node_modules/tr46
+1030 silly ADD node_modules/railway/node_modules/spdx-exceptions
+1031 silly ADD node_modules/railway/node_modules/spdx-license-ids
+1032 silly ADD node_modules/railway/node_modules/spdx-expression-parse
+1033 silly ADD node_modules/railway/node_modules/spdx-correct
+1034 silly ADD node_modules/railway/node_modules/strip-json-comments
+1035 silly ADD node_modules/railway/node_modules/minimist
+1036 silly ADD node_modules/railway/node_modules/ini
+1037 silly ADD node_modules/railway/node_modules/deep-extend
+1038 silly ADD node_modules/railway/node_modules/safe-buffer
+1039 silly ADD node_modules/railway/node_modules/rc
+1040 silly ADD node_modules/railway/node_modules/registry-url
+1041 silly ADD node_modules/railway/node_modules/registry-auth-token
+1042 silly ADD node_modules/railway/node_modules/supports-hyperlinks
+1043 silly ADD node_modules/railway/node_modules/yallist
+1044 silly ADD node_modules/railway/node_modules/mkdirp
+1045 silly ADD node_modules/railway/node_modules/minizlib
+1046 silly ADD node_modules/railway/node_modules/minizlib/node_modules/minipass
+1047 silly ADD node_modules/railway/node_modules/minipass
+1048 silly ADD node_modules/railway/node_modules/fs-minipass
+1049 silly ADD node_modules/railway/node_modules/fs-minipass/node_modules/minipass
+1050 silly ADD node_modules/railway/node_modules/chownr
+1051 silly ADD node_modules/railway/node_modules/has-flag
+1052 silly ADD node_modules/railway/node_modules/min-indent
+1053 silly ADD node_modules/railway/node_modules/ansi-regex
+1054 silly ADD node_modules/railway/node_modules/strip-ansi
+1055 silly ADD node_modules/railway/node_modules/emoji-regex
+1056 silly ADD node_modules/railway/node_modules/is-fullwidth-code-point
+1057 silly ADD node_modules/railway/node_modules/astral-regex
+1058 silly ADD node_modules/railway/node_modules/mimic-fn
+1059 silly ADD node_modules/railway/node_modules/onetime
+1060 silly ADD node_modules/railway/node_modules/function-bind
+1061 silly ADD node_modules/railway/node_modules/hasown
+1062 silly ADD node_modules/railway/node_modules/supports-preserve-symlinks-flag
+1063 silly ADD node_modules/railway/node_modules/path-parse
+1064 silly ADD node_modules/railway/node_modules/is-core-module
+1065 silly ADD node_modules/railway/node_modules/strip-indent
+1066 silly ADD node_modules/railway/node_modules/is-arrayish
+1067 silly ADD node_modules/railway/node_modules/picocolors
+1068 silly ADD node_modules/railway/node_modules/@babel/helper-validator-identifier
+1069 silly ADD node_modules/railway/node_modules/lines-and-columns
+1070 silly ADD node_modules/railway/node_modules/json-parse-even-better-errors
+1071 silly ADD node_modules/railway/node_modules/error-ex
+1072 silly ADD node_modules/railway/node_modules/@babel/code-frame
+1073 silly ADD node_modules/railway/node_modules/parse-json
+1074 silly ADD node_modules/railway/node_modules/@types/normalize-package-data
+1075 silly ADD node_modules/railway/node_modules/p-try
+1076 silly ADD node_modules/railway/node_modules/p-limit
+1077 silly ADD node_modules/railway/node_modules/p-locate
+1078 silly ADD node_modules/railway/node_modules/path-exists
+1079 silly ADD node_modules/railway/node_modules/locate-path
+1080 silly ADD node_modules/railway/node_modules/read-pkg
+1081 silly ADD node_modules/railway/node_modules/read-pkg/node_modules/type-fest
+1082 silly ADD node_modules/railway/node_modules/find-up
+1083 silly ADD node_modules/railway/node_modules/shell-quote
+1084 silly ADD node_modules/railway/node_modules/js-tokens
+1085 silly ADD node_modules/railway/node_modules/react-is
+1086 silly ADD node_modules/railway/node_modules/object-assign
+1087 silly ADD node_modules/railway/node_modules/loose-envify
+1088 silly ADD node_modules/railway/node_modules/xtend
+1089 silly ADD node_modules/railway/node_modules/split2
+1090 silly ADD node_modules/railway/node_modules/postgres-interval
+1091 silly ADD node_modules/railway/node_modules/postgres-date
+1092 silly ADD node_modules/railway/node_modules/postgres-bytea
+1093 silly ADD node_modules/railway/node_modules/postgres-array
+1094 silly ADD node_modules/railway/node_modules/pg-int8
+1095 silly ADD node_modules/railway/node_modules/pgpass
+1096 silly ADD node_modules/railway/node_modules/pg-types
+1097 silly ADD node_modules/railway/node_modules/pg-protocol
+1098 silly ADD node_modules/railway/node_modules/pg-pool
+1099 silly ADD node_modules/railway/node_modules/pg-connection-string
+1100 silly ADD node_modules/railway/node_modules/pg-cloudflare
+1101 silly ADD node_modules/railway/node_modules/is-wsl
+1102 silly ADD node_modules/railway/node_modules/is-docker
+1103 silly ADD node_modules/railway/node_modules/validate-npm-package-license
+1104 silly ADD node_modules/railway/node_modules/semver
+1105 silly ADD node_modules/railway/node_modules/resolve
+1106 silly ADD node_modules/railway/node_modules/hosted-git-info
+1107 silly ADD node_modules/railway/node_modules/whatwg-url
+1108 silly ADD node_modules/railway/node_modules/kind-of
+1109 silly ADD node_modules/railway/node_modules/is-plain-obj
+1110 silly ADD node_modules/railway/node_modules/arrify
+1111 silly ADD node_modules/railway/node_modules/decamelize
+1112 silly ADD node_modules/railway/node_modules/quick-lru
+1113 silly ADD node_modules/railway/node_modules/map-obj
+1114 silly ADD node_modules/railway/node_modules/camelcase
+1115 silly ADD node_modules/railway/node_modules/yargs-parser
+1116 silly ADD node_modules/railway/node_modules/trim-newlines
+1117 silly ADD node_modules/railway/node_modules/redent
+1118 silly ADD node_modules/railway/node_modules/read-pkg-up
+1119 silly ADD node_modules/railway/node_modules/read-pkg-up/node_modules/type-fest
+1120 silly ADD node_modules/railway/node_modules/normalize-package-data
+1121 silly ADD node_modules/railway/node_modules/minimist-options
+1122 silly ADD node_modules/railway/node_modules/hard-rejection
+1123 silly ADD node_modules/railway/node_modules/decamelize-keys
+1124 silly ADD node_modules/railway/node_modules/decamelize-keys/node_modules/map-obj
+1125 silly ADD node_modules/railway/node_modules/camelcase-keys
+1126 silly ADD node_modules/railway/node_modules/@types/minimist
+1127 silly ADD node_modules/railway/node_modules/ci-info
+1128 silly ADD node_modules/railway/node_modules/escape-string-regexp
+1129 silly ADD node_modules/railway/node_modules/lodash.isequal
+1130 silly ADD node_modules/railway/node_modules/figures
+1131 silly ADD node_modules/railway/node_modules/arr-rotate
+1132 silly ADD node_modules/railway/node_modules/terminal-link
+1133 silly ADD node_modules/railway/node_modules/prop-types
+1134 silly ADD node_modules/railway/node_modules/convert-to-spaces
+1135 silly ADD node_modules/railway/node_modules/restore-cursor
+1136 silly ADD node_modules/railway/node_modules/yoga-layout-prebuilt
+1137 silly ADD node_modules/railway/node_modules/ws
+1138 silly ADD node_modules/railway/node_modules/wrap-ansi
+1139 silly ADD node_modules/railway/node_modules/widest-line
+1140 silly ADD node_modules/railway/node_modules/type-fest
+1141 silly ADD node_modules/railway/node_modules/string-width
+1142 silly ADD node_modules/railway/node_modules/stack-utils
+1143 silly ADD node_modules/railway/node_modules/stack-utils/node_modules/escape-string-regexp
+1144 silly ADD node_modules/railway/node_modules/slice-ansi
+1145 silly ADD node_modules/railway/node_modules/signal-exit
+1146 silly ADD node_modules/railway/node_modules/scheduler
+1147 silly ADD node_modules/railway/node_modules/react-devtools-core
+1148 silly ADD node_modules/railway/node_modules/patch-console
+1149 silly ADD node_modules/railway/node_modules/lodash
+1150 silly ADD node_modules/railway/node_modules/is-ci
+1151 silly ADD node_modules/railway/node_modules/indent-string
+1152 silly ADD node_modules/railway/node_modules/code-excerpt
+1153 silly ADD node_modules/railway/node_modules/cli-truncate
+1154 silly ADD node_modules/railway/node_modules/cli-cursor
+1155 silly ADD node_modules/railway/node_modules/cli-boxes
+1156 silly ADD node_modules/railway/node_modules/auto-bind
+1157 silly ADD node_modules/railway/node_modules/ansi-escapes
+1158 silly ADD node_modules/railway/node_modules/ansi-escapes/node_modules/type-fest
+1159 silly ADD node_modules/railway/node_modules/color-name
+1160 silly ADD node_modules/railway/node_modules/color-convert
+1161 silly ADD node_modules/railway/node_modules/supports-color
+1162 silly ADD node_modules/railway/node_modules/ansi-styles
+1163 silly ADD node_modules/railway/node_modules/undici-types
+1164 silly ADD node_modules/railway/node_modules/@types/node
+1165 silly ADD node_modules/railway/node_modules/@types/minipass
+1166 silly ADD node_modules/railway/node_modules/update-check
+1167 silly ADD node_modules/railway/node_modules/tslib
+1168 silly ADD node_modules/railway/node_modules/tar
+1169 silly ADD node_modules/railway/node_modules/pg
+1170 silly ADD node_modules/railway/node_modules/open
+1171 silly ADD node_modules/railway/node_modules/node-fetch
+1172 silly ADD node_modules/railway/node_modules/meow
+1173 silly ADD node_modules/railway/node_modules/meow/node_modules/type-fest
+1174 silly ADD node_modules/railway/node_modules/ink-text-input
+1175 silly ADD node_modules/railway/node_modules/ink-text-input/node_modules/type-fest
+1176 silly ADD node_modules/railway/node_modules/ink-select-input
+1177 silly ADD node_modules/railway/node_modules/ink-link
+1178 silly ADD node_modules/railway/node_modules/react
+1179 silly ADD node_modules/railway/node_modules/ink
+1180 silly ADD node_modules/railway/node_modules/ink/node_modules/react-reconciler
+1181 silly ADD node_modules/railway/node_modules/has-yarn
+1182 silly ADD node_modules/railway/node_modules/get-port
+1183 silly ADD node_modules/railway/node_modules/cli-spinners
+1184 silly ADD node_modules/railway/node_modules/chalk
+1185 silly ADD node_modules/railway/node_modules/@types/tar
+1186 verbose cwd /data/data/com.termux/files/home
+1187 verbose os Linux 5.4.254-android12-9-660873-gb555c87043d9-ab603
+1188 verbose node v24.2.0
+1189 verbose npm  v11.3.0
+1190 verbose exit 0
+1191 info ok
